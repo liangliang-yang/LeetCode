@@ -4,6 +4,8 @@
 # [494] Target Sum
 #
 
+from collections import defaultdict
+
 # @lc code=start
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
