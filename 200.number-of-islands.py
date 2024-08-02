@@ -12,6 +12,8 @@ class Solution:
         if not grid:
             return 0
 
+        # 利用 visited[][] 可以保留 grid, 需要额外的存储
+        # 如果面试官答应可以改 grid, 就可以改
         count = 0 # count island
         for i in range(len(grid)):
             for j in range(len(grid[0])):

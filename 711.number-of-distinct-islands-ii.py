@@ -43,6 +43,7 @@ class Solution(object):
                 shape = [(x - shape[0][0], y - shape[0][1]) for x, y in shape]
                 shapes.append(shape)
                 
+            ## 
             baseShape = min(shapes)
             return baseShape
 
