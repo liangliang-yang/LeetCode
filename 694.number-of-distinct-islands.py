@@ -24,11 +24,11 @@ class Solution(object):
                     row_origin = row
                     col_origin = col
                     self.dfs(grid, row, col, row_origin, col_origin, visited, current_island)
-                    # print(current_island)
+                    print(current_island)
                     if current_island not in unique_islands:
                         unique_islands.append(current_island)
 
-        # print(unique_islands)
+        print(unique_islands)
         return len(unique_islands)
 
     # Do a DFS to find all cells in the current island.

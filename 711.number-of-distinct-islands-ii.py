@@ -42,8 +42,9 @@ class Solution(object):
                 shape = sorted([(y * i, x * j) for x, y in island])
                 shape = [(x - shape[0][0], y - shape[0][1]) for x, y in shape]
                 shapes.append(shape)
+
+                print(shape)
                 
-            ## 
             baseShape = min(shapes)
             return baseShape
 
